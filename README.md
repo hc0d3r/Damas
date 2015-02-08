@@ -1,7 +1,7 @@
 # Damas
 Checkers game coded in C, using ncurses lib
 
-# Installing Ncurses
+## Installing Ncurses
 
 * CentOS/Fedora
 
@@ -14,7 +14,7 @@ Checkers game coded in C, using ncurses lib
 # apt-get install libncurses5-dev
 ```
 
-# Compile
+## Compile
 
 ```sh
 $ git clone https://github.com/mmxxm/Damas.git
@@ -22,7 +22,7 @@ $ cd Damas
 $ make
 ```
 
-# Play
+## Play
 * Offline match
 
 ```
@@ -41,5 +41,8 @@ $ ./damas -c <server_addr> -p <server_port>
 $ ./damas -l <port-to-listen>
 ```
 
-# Demo
+## Demo
 [![Demo](http://img.youtube.com/vi/O4gsKmFGM20/0.jpg)](https://www.youtube.com/watch?v=O4gsKmFGM20)
+
+## License
+   [MIT](https://raw.githubusercontent.com/mmxxm/Damas/master/license)
