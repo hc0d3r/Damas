@@ -245,7 +245,7 @@ int main(int argc, char **argv){
 	ok = 0, x = 0, flag = 0, diffx = 0, diffy = 0, xx = 0, yy = 0;
 
 	int sock_con = 0, sock = 0;
-	size_t sockaddr_len;
+	socklen_t sockaddr_len;
 	struct sockaddr cli_addr;
 	struct sockaddr_in sockr;
 
