@@ -1,7 +1,5 @@
 language: c
-compiler:
- - gcc
- - clang
+compiler: gcc
 
 sudo: required
 
@@ -12,4 +10,4 @@ before_install:
 install:
  - make
 
-script:
+script: nosetests
