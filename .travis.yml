@@ -1,0 +1,13 @@
+language: c
+compiler:
+ - gcc
+ - clang
+
+sudo: required
+
+before_install:
+ - sudo apt-get update -qq
+ - sudo apt-get -y install libncurses5-dev
+
+install:
+ - make
