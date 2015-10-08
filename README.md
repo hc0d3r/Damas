@@ -1,4 +1,8 @@
 # Damas
+
+[![Travis](https://img.shields.io/travis/hc0d3r/Damas.svg?style=flat-square)](https://travis-ci.org/hc0d3r/Damas)
+[![GitHub license](https://img.shields.io/github/license/hc0d3r/Damas.svg?style=flat-square)](license)
+
 Checkers game coded in C, using ncurses lib
 
 ## Installing Ncurses
